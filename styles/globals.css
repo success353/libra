@@ -99,14 +99,22 @@ nav {
 }
 
 .productDetailsContainer {
-  padding: 40px 30px;
+  padding: 40px 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+.productDetailsImage img {
+  border: 1px solid black;
+}
+
 .productDetailsText {
-  margin-left: 50px;
+  margin-left: 70px;
+}
+
+hr {
+   border: 0.5px solid lightgray;
 }
 
 .productDetailsText p {
@@ -125,6 +133,13 @@ nav {
   color: white;
   padding: 10px 30px;
   font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cartIcon {
+  margin-right: 5px;
 }
 a {
   color: inherit;

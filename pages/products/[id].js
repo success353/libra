@@ -51,7 +51,7 @@ const productDetails = ({ data }) => {
                     <hr /><br /><br />
                     <div className="buyDiv">
                         <h1>${data.price}</h1>
-                        <button className='addToCart'>Add to Cart</button>
+                        <button className='addToCart'><ShoppingBasketOutlinedIcon className='cartIcon'/>Add to Cart</button>
                     </div>
                 </div>
             </div>
