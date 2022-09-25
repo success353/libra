@@ -36,6 +36,9 @@ const productDetails = ({ data }) => {
                 <Link href='/'>
                     <h2>LIBRA</h2>
                 </Link>
+                <Link href='/products'>
+                    <h3>Products</h3>
+                </Link>
                 <span><ShoppingBasketOutlinedIcon /></span>
             </nav>
             <div className="productDetailsContainer">
@@ -51,7 +54,7 @@ const productDetails = ({ data }) => {
                     <hr /><br /><br />
                     <div className="buyDiv">
                         <h1>${data.price}</h1>
-                        <button className='addToCart'><ShoppingBasketOutlinedIcon className='cartIcon'/>Add to Cart</button>
+                        <button className='addToCart'><ShoppingBasketOutlinedIcon className='cartIcon' />Add to Cart</button>
                     </div>
                 </div>
             </div>

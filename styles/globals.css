@@ -7,7 +7,6 @@
 }
 
 nav {
-  font-family: 'Inconsolata', monospace;
   padding: 20px;
   display: flex;
   justify-content: space-between;
@@ -17,12 +16,16 @@ nav {
   cursor: pointer;
 }
 
+nav h2, h3 {
+  font-family: 'Playfair Display', serif;
+}
+
 .container-home {
   font-family: 'Playfair Display', serif;
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 90vh;
+  min-height: 88vh;
   text-align: center;
 }
 .container-home h1 {
@@ -106,7 +109,7 @@ nav {
 }
 
 .productDetailsImage img {
-  border: 1px solid black;
+  border: 3px solid black;
 }
 
 .productDetailsText {

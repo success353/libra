@@ -8,20 +8,23 @@ const Home = () => {
         <Link href='/'>
           <h2>LIBRA</h2>
         </Link>
+        <Link href='/products'>
+          <h3>Products</h3>
+        </Link>
         <span><ShoppingBasketOutlinedIcon /></span>
       </nav>
       <div className="container-home">
         <h1>
-          Protect the feeling of <span>being comfortable</span> in your skin.       
+          Protect the feeling of <span>being comfortable</span> in your skin.
           <Link href='/products'>
             <span className='icon'>
-                <ArrowRightAltOutlinedIcon fontSize='large' />
+              <ArrowRightAltOutlinedIcon fontSize='large' />
             </span>
           </Link>
         </h1>
       </div>
     </>
-   );
+  );
 }
- 
+
 export default Home;
