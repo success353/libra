@@ -98,6 +98,34 @@ nav {
   font-weight: 700;
 }
 
+.productDetailsContainer {
+  padding: 40px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.productDetailsText {
+  margin-left: 50px;
+}
+
+.productDetailsText p {
+  font-weight: 700;
+}
+
+.buyDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 120px;
+}
+
+.addToCart {
+  background: black;
+  color: white;
+  padding: 10px 30px;
+  font-weight: 600;
+}
 a {
   color: inherit;
   text-decoration: none;
