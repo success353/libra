@@ -113,6 +113,10 @@ nav {
   margin-left: 70px;
 }
 
+.productDetailsText h1 {
+  font-family: 'Playfair Display', serif;
+}
+
 hr {
    border: 0.5px solid lightgray;
 }
